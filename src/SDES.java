@@ -206,15 +206,15 @@ public class SDES extends javax.swing.JFrame  {
 
         jLabel1.setText("PlainText");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(39, 16, 60, 14);
+        jLabel1.setBounds(39, 16, 60, 16);
 
         jLabel2.setText("Key");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(175, 16, 40, 14);
+        jLabel2.setBounds(175, 16, 40, 16);
 
         jLabel3.setText("CipherText");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(300, 16, 70, 14);
+        jLabel3.setBounds(300, 16, 70, 16);
 
         decrypt.setText("Decrypt");
         decrypt.addActionListener(new java.awt.event.ActionListener() {
@@ -223,7 +223,7 @@ public class SDES extends javax.swing.JFrame  {
             }
         });
         getContentPane().add(decrypt);
-        decrypt.setBounds(30, 260, 90, 23);
+        decrypt.setBounds(30, 260, 90, 28);
 
         encrypt.setText("Encrypt");
         encrypt.addActionListener(new java.awt.event.ActionListener() {
@@ -232,7 +232,7 @@ public class SDES extends javax.swing.JFrame  {
             }
         });
         getContentPane().add(encrypt);
-        encrypt.setBounds(30, 140, 90, 23);
+        encrypt.setBounds(30, 140, 90, 28);
 
         jLabel4.setText("Encrypted Message");
         getContentPane().add(jLabel4);
@@ -240,7 +240,7 @@ public class SDES extends javax.swing.JFrame  {
 
         jLabel5.setText("Decrypted Message");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(180, 210, 110, 14);
+        jLabel5.setBounds(180, 210, 110, 16);
 
         Dmessage.setColumns(20);
         Dmessage.setRows(5);
